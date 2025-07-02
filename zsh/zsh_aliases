@@ -1,0 +1,10 @@
+# kali-ctf zsh_aliases
+
+# Spell correction
+alias clera="clear"
+alias claer="clear"
+
+# Shortcuts
+alias ls="ls -lh --color=auto"
+alias la="ls -lAh --color=auto"
+alias checksha256="sha256sum -c SHA256SUMS 2>&1 | grep OK"
