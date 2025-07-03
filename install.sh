@@ -10,6 +10,10 @@ cp -v ./zsh/zsh_aliases ~/.zsh_aliases
 cp -v ./tmux/tmux.conf ~/.tmux.conf
 cp -v ./vim/vimrc ~/.vimrc
 cp -v ./kalicustoms/ip-panel.sh ~/.kalicustoms/ip-panel.sh
+
+echo "" >> ~/.zshrc
+echo "source ~/.zsh_aliases" >> ~/.zshrc
+
 echo ""
 echo "Don't forget to finish setting up the ip-panel in the GUI!!!"
 echo ""
