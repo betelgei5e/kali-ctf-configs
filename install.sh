@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt full-upgrade -y
 
-sudo apt install tree btop htop tmux obsidian ufw git
+sudo apt install tree btop htop tmux obsidian ufw git bat
 
 mkdir -pv ~/.kalicustoms/
 cp -v ./zsh/zsh_aliases ~/.zsh_aliases
